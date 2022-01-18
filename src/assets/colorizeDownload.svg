@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42" height="42"
+     viewBox="0 0 42 42">
+    <defs>
+        <filter id="Rectangle_189" x="0" y="0" width="42" height="42" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur stdDeviation="3" result="blur"/>
+            <feFlood flood-color="#29aaff" flood-opacity="0.302"/>
+            <feComposite operator="in" in2="blur"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g id="download_icon" transform="translate(9 6)">
+        <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Rectangle_189)">
+            <rect id="Rectangle_189-2" width="24" height="24" rx="8"
+                  transform="translate(9 6)" fill="#29aaff"/>
+        </g>
+        <path id="Union_34"
+              d="M0,13V9.68H1.685v1.66h8.631V9.68H12V13ZM2.923,5.53H5.161V0H6.839V5.53H9.078L6,9.666Z"
+              transform="translate(6 5)" fill="#fff"/>
+    </g>
+</svg>

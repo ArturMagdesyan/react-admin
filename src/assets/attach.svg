@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42">
+    <defs>
+        <filter id="Rectangle_189" x="0" y="0" width="42" height="42" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur stdDeviation="3" result="blur"/>
+            <feFlood flood-color="#a85aff" flood-opacity="0.302"/>
+            <feComposite operator="in" in2="blur"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g id="Переработка" transform="translate(9 6)">
+        <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Rectangle_189)">
+            <rect id="Rectangle_189-2" width="24" height="24" rx="8" transform="translate(9 6)" fill="#a85aff"/>
+        </g>
+        <path id="Union_36" d="M-3696.681-199v-4.82h-4.82v-1.361h4.82V-210h1.361v4.819h4.819v1.361h-4.819V-199Z" transform="translate(3708 216.5)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0.997"/>
+    </g>
+</svg>

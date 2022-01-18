@@ -1,0 +1,52 @@
+export enum Technique {
+  MANIPULATOR = 'MANIPULATOR',
+  CRANE = 'CRANE',
+  AUTO_TOWER = 'AUTO_TOWER',
+  LONG_VEHICLE = 'LONG_VEHICLE',
+  CONCRETE_PUMP = 'CONCRETE_PUMP',
+}
+
+export enum TableFilterAction {
+  'ADD_TECHNIQUE_IDS',
+  'ADD_CURRENT_PAGE',
+  'ADD_CURRENT_PAGE_SIZE',
+  'ADD_TODAY_DATE',
+  'ADD_MONTH_DATE',
+  'ADD_DATE_RANGE',
+  'ADD_PARENT_FILTER_DATA',
+  'INIT_STATE',
+  'ADD_SORT',
+  'ADD_FILTER',
+}
+
+export enum TransactionType {
+  INCOME = 'INCOME',
+  EXPENSE = 'EXPENSE',
+}
+
+export enum UserRole {
+  ROLE_ADMIN = 'ROLE_ADMIN',
+  ROLE_SUPER_ADMIN = 'ROLE_SUPER_ADMIN',
+  ROLE_PARTICIPANT_ADMIN = 'ROLE_PARTICIPANT_ADMIN',
+  ROLE_VIEWER_ADMIN = 'ROLE_VIEWER_ADMIN',
+}
+
+export enum OrderSource {
+  WEB = 'Web',
+  IOS = 'Ios',
+  ANDROID = 'Android',
+}
+
+export enum OrderPaymentMethod {
+  NOT_CASH = 'NOT_CASH',
+  CASH = 'CASH',
+  CARD = 'CARD',
+}
+
+export enum OrderStatus {
+  SENT_TO_MANAGER = 'SENT_TO_MANAGER',
+  IN_PROGRESS = 'IN_PROGRESS',
+  CANCELED = 'CANCELED',
+  FINISHED = 'FINISHED',
+  ISSUED = 'ISSUED',
+}

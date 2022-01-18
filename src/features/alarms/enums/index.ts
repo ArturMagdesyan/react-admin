@@ -1,0 +1,4 @@
+export enum AlarmStatus {
+  NOT_CONFIRMED = 'NOT_CONFIRMED',
+  VENDOR_CONFIRMED = 'VENDOR_CONFIRMED',
+}
